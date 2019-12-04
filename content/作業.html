@@ -143,7 +143,7 @@ img.add_border {
                             <li><a href="./../blog/index.html">blog</a></li>
                         </ul>
                       </li>
-                     <li><a href='第10周分組作業.html'>第10周分組作業</a></li>
+                     <li><a href='作業.html'>作業</a></li>
                       </ul>
                 </nav>
               </div>
@@ -154,33 +154,32 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content"> <br /><h1>第10周分組作業</h1>
+    <div id="tipue_search_content"> <br /><h1>作業</h1>
+<p></p>
 <pre></pre>
 <script>
 function getDart(dirname){
     source = "https://dartpad.github.io/embed-dart.html?gh_owner=40823142&gh_repo=cp2019ag1&gh_path=downloads/dart_ex/" + dirname + "&theme=dark";
     document.getElementById("iframe").src = source ;
 }
-
-
 function largest(){
 document.getElementById("iframe").width = document.body.clientWidth ;
 document.getElementById("iframe").height = document.body.clientWidth*0.5 ;
 }
-
 function original(){
 document.getElementById("iframe").width = 1200 ;
 document.getElementById("iframe").height = 800 ;
 }
 </script>
 <!-- 取 Dart 程式的按鈕 -->
-<h4>純 Dart 程式</h4>
+<h4>Dart 程式</h4>
 <p><button onclick="getDart('迴圈')">迴圈</button></p>
 <p><button onclick="getDart('華氏轉攝氏')">華氏轉攝氏</button></p>
 <p><button onclick="getDart('攝氏轉華氏')">攝氏轉華氏</button></p>
+<p><button onclick="getDart('華攝氏徵測轉換')">華攝氏徵測轉換</button></p>
 <!-- 內建放入的 Dart 原始碼 -->
 <p><button onclick="largest()">放大</button> <button onclick="original()">回復</button></p>
-<p><iframe height="600" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823142&amp;gh_repo=cp2019ag1&amp;gh_path=downloads/dart_ex/迴圈&amp;theme=dark" width="800"></iframe></p><br /> </div>
+<p><iframe height="800" id="iframe" src="https://dartpad.dartlang.org/embed-dart.html?gh_owner=40823142&amp;gh_repo=cp2019ag1&amp;gh_path=downloads/dart_ex/迴圈&amp;theme=dark" width="1200"></iframe></p><br /> </div>
         
     <!-- footer -->
       <div class="container">
