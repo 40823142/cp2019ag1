@@ -12,6 +12,7 @@ main() {
   var type;
 
   var number;
+   //在此設定溫度
   List temp = ["222C", "30C", "50F", "40C", "23F"];
 
   for (var data in temp) {
